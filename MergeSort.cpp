@@ -6,7 +6,7 @@ int n, a[N], tmp[N];
 
 void merge_sort(int a[],int l,int r)
 {
-	if (l >= r)return;
+	if (l == r)return;
 	int mid = l + r >> 1;
 	merge_sort(a, l, mid);
 	merge_sort(a, mid + 1, r);

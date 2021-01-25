@@ -21,6 +21,12 @@
     <ClCompile Include="MergeSort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BinarySearchToInt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchToFloat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="in.txt">
